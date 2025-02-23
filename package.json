@@ -1,18 +1,14 @@
 {
-  "name": "lect-07-15-jan-2025-express",
+  "name": "todo-app",
   "version": "1.0.0",
-  "description": "express js application",
-  "main": "index.js",
+  "description": "A simple To-Do List application",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [
-    "g24",
-    "chitkara"
-  ],
-  "author": "vikas patel",
-  "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
     "express": "^4.21.2"
   }
 }
